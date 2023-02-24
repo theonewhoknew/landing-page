@@ -1,14 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
    flex-direction: column;
-   height: 100vh;
    justify-content: space-between;
+   
 }
+
+
+
 .sheader,
  .mid1,
  .mid2 {
-    flex-grow: 1;
+    flex: 1 1 auto;
  }
+
+.mid1
+
+ {
+    height: 460px;
+ }
+
+ 
 
 .logo {
     font-size: 24px;
@@ -37,6 +52,7 @@ p {
     background-color: #1F2937;
     padding-left: 160px;
     padding-right: 160px;
+    
 }
 .sheader {
     display: flex;
@@ -47,7 +63,6 @@ p {
     padding-top: 80px;
     padding-bottom: 80px;
     justify-content: space-between;
-
     align-items: flex-start;
 }
 
@@ -62,7 +77,6 @@ p {
 .mainphoto {
     width: 400px;
     height: auto;
-    flex-basis: auto;
     flex: 1 1 0;
 }
 
@@ -101,6 +115,7 @@ h3 {
     border-radius: 20%;
     display: block;
     margin: 0 auto;
+    flex: auto;
 }
 
 
@@ -120,12 +135,36 @@ h3 {
 
 .mid2 {
     background-color: #e5e7eb;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .mid2 p {
     font-size: 36px;
     font-style: italic;
     font-weight: 400;
     color: #1f2937;
+    padding-left: 250px;
+    padding-right: 250px;
 }
- 
+
+.textwrap {
+    width: auto;
+}
+
+#quote {
+    text-align: end;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.signupsection {
+    height: 340px;
+    background-color: white;
+}
