@@ -77,7 +77,7 @@ p {
 h3 {
     text-align: center;
     margin: 0px;
-    padding: 30px;
+    padding: 40px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -85,7 +85,6 @@ h3 {
 
 .cardholder {
     display: flex;
-    list-style-type: none;
     justify-content: center;
     gap: 30px;
     margin: 0px;
@@ -96,4 +95,25 @@ h3 {
     width: 130px;
     height: auto;
     border-radius: 20%;
+}
+.imagewrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardholder p 
+{
+    color: black;
+    height: auto;
+    
+    text-align: center;
+    
+}
+.imagewrap1,
+.imagewrap2,
+.imagewrap3,
+.imagewrap4 {
+    flex: 1;
+    
+    
 }
