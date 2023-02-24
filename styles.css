@@ -6,6 +6,7 @@ body {
     display: flex;
    flex-direction: column;
    justify-content: space-between;
+   margin: 0px;
    
 }
 
@@ -23,6 +24,19 @@ body {
     height: 460px;
  }
 
+ .footer {
+
+    background-color: #1F2937;
+    height: 59.35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .footer p {
+    font-size: 15px;
+ }
  
 
 .logo {
@@ -64,6 +78,7 @@ p {
     padding-bottom: 80px;
     justify-content: space-between;
     align-items: flex-start;
+    height: 460px;
 }
 
 .sheader1 {
@@ -75,8 +90,7 @@ p {
 }
 
 .mainphoto {
-    width: 400px;
-    height: auto;
+    max-height:100%;
     flex: 1 1 0;
 }
 
@@ -165,6 +179,49 @@ h3 {
 
 
 .signupsection {
-    height: 340px;
+    height: 250px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.signup-container {
+    background-color: #3882f6;
+    height: 100px;
+    width: 900px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.signup-container .signup {
+    border-color: white;
+    border-style: solid;
+}
+
+.signuptext {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+
+.buttoncontainer {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signuptext p {
+    font-size: 15px;
+    color: white;
+}
+
+#chance {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
